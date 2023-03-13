@@ -1,0 +1,17 @@
+#Occupancy Models
+library(unmarked)
+library(tidyverse)
+library(AICcmodavg)
+
+#1. Occupancy Model----
+occ_model<-occu(~observer~Structure_Stand_Age_v1.565m+
+       SpeciesGroups_Broadleaf_Spp_v1.565m+
+       Structure_Biomass_TotalDead_v1.565m,
+     umf)
+summary(occ_model)
+
+#2. Assessment----
+occ_gof <- mb.gof.test(occ_model, nsim = 10, plot.hist = FALSE)
+# hide the chisq table to give simpler output
+occ_gof$chisq.table <- NULL
+print(occ_gof)

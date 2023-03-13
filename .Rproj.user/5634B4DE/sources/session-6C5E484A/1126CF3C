@@ -1,0 +1,27 @@
+{
+    "id": "1126CF3C",
+    "path": "~/R Projects/PIWO_Model_Comparison/01_Format_for_unmarked.R",
+    "project_path": "01_Format_for_unmarked.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1678236787939.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "tempName": "Untitled2",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "12,45",
+        "scrollLine": "0"
+    },
+    "folds": "34|89|50|0|\n51|28|58|0|\n59|79|78|0|\n79|57|90|0|\n91|69|141|0|\n142|47|145|0|\n",
+    "lastKnownWriteTime": 1678304148,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1678308132126,
+    "read_only": false,
+    "read_only_alternatives": []
+}
